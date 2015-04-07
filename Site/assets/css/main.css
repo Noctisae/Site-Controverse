@@ -19,6 +19,7 @@ input,
 select,
 textarea {
     color: #222;
+    cursor:url('../img/cookie.gif'),auto;
 }
 
 body {
@@ -397,6 +398,38 @@ a:after {
     text-align: center;
 }
 
+.section-divider1 {
+    z-index: 999;
+    width: 100%;
+    display: table;
+    max-height: 450px;
+    border-bottom: 2px solid #E6EAED;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    margin-top: 45px;
+
+
+    background-position: center center;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    background-attachment: relative;
+
+    text-align: left;
+}
+
 .textdivider h1 {
 	padding-top: 70px;
 	color: white;
@@ -431,6 +464,11 @@ a:after {
 .divider6 {
 	background-image: url('../img/bg/divider6.jpg')
 }
+
+.cartographie {
+    background-image: url('../img/Cartographie.jpg')
+}
+
 
 
 
@@ -610,10 +648,20 @@ a:after {
 }
 
 
+
 /* ==========================================================================
    MEDIA QUERIES
    ========================================================================== */
 
+@media screen and (max-width:1200px), screen and (max-device-width:1200px){
+    body .header{background-attachment: scroll;}
+    .dlcarto1{
+        visibility:visible;
+    }
+    .section-divider.textdivider.cartographie{
+        display:none;
+    }
+}
 
 @media screen and (max-width:1050px), screen and (max-device-width:1050px){
 	body .header{background-attachment: scroll;}

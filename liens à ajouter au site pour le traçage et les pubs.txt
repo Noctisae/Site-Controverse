@@ -1,0 +1,26 @@
+
+
+AT Internet : http://ads.servebom.com/tmnhead.js
+
+TWitter : http://platform.twitter.com/widgets.js
+
+Google analytics : http://www.google-analytics.com/ga.js 
+					http://www.google-analytics.com/analytics.js
+					http://www.googletagservices.com/tag/js/gpt.js 
+
+Visual  Revenue : http://a.visualrevenue.com/vrs.js 
+
+Cedexis Radar : http://radar.cedexis.com/01-10013-radar10.min.js
+
+Chartbeat : http://static.chartbeat.com/js/chartbeat.js 
+
+Ezakus : http://lemonde.ezakus.net/marker/?tjs=1428404058289
+
+Kameleon, Netmining
+
+Yandex Metrics : http://mc.yandex.ru/metrika/watch.js 
+
+
+
+
+	
