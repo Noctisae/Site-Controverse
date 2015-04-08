@@ -150,6 +150,9 @@ hr:before {
     background: #ccc;
 }
 
+a{
+    cursor:url('../img/cookie.gif'),auto;
+}
 a img {
     background: white;
 }
@@ -465,9 +468,7 @@ a:after {
 	background-image: url('../img/bg/divider6.jpg')
 }
 
-.cartographie {
-    background-image: url('../img/Cartographie.jpg')
-}
+
 
 
 
@@ -653,12 +654,15 @@ a:after {
    MEDIA QUERIES
    ========================================================================== */
 
-@media screen and (max-width:1200px), screen and (max-device-width:1200px){
+@media screen and (max-width:1480px), screen and (max-device-width:1480px){
     body .header{background-attachment: scroll;}
     .dlcarto1{
         visibility:visible;
     }
-    .section-divider.textdivider.cartographie{
+    .section-divider.textdivider{
+        display:none;
+    }
+    .cartographie{
         display:none;
     }
 }
