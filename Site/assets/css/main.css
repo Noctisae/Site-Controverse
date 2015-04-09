@@ -654,7 +654,7 @@ a:after {
    MEDIA QUERIES
    ========================================================================== */
 
-@media screen and (max-width:1480px), screen and (max-device-width:1480px){
+@media screen and (max-width:180px), screen and (max-device-width:180px){
     body .header{background-attachment: scroll;}
     .dlcarto1{
         visibility:visible;
